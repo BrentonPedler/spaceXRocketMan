@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../Components/Header';
-import Data from '../Components/Data';
+import Dropdown from '../Components/Dropdown';
 
 const Landing = () => {
     return (
         <div>
            <Header />
-           <Data />
+           <Dropdown />
         </div>
     )
 }
