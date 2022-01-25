@@ -4,7 +4,7 @@ import Dropdown from '../Components/Dropdown';
 
 const Landing = () => {
     return (
-        <div>
+        <div className="main wrapper">
            <Header />
            <Dropdown />
         </div>

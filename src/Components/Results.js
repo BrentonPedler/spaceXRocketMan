@@ -2,7 +2,7 @@ import React from 'react';
 
 const Results = ({data}) => {
 
-    let { wikipedia, boosters, first_flight: firstFlight, stages, description, name } = data;
+    let { description, name } = data;
 
     console.log(data);
     
@@ -11,8 +11,8 @@ const Results = ({data}) => {
         <div>
             <h3>{name}</h3>
             <p>{description}</p>
-            <p><a href={wikipedia}>{wikipedia}</a></p>
         </div>
+        
     )
 }
 
