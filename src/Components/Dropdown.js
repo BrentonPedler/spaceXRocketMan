@@ -36,15 +36,16 @@ const Dropdown = () => {
 
     return (
         <div>
-            <label htmlFor="rockets">Choose a Rocket</label>
-            <select onChange={getValue} name="rockets" id="rockets">
-                <option value="empty">Choose Your Rocket</option>
-                <option value={falconOne}>Falcon 1</option>
-                <option value={falconNine}>Falcon 9</option>
-                <option value={falconHeavy}>Falcon Heavy</option>
-                <option value={starship}>Starship</option>
-            </select>
-
+            <div className="dropdown">
+                <label htmlFor="rockets">Choose a Rocket</label>
+                <select onChange={getValue} name="rockets" id="rockets">
+                    <option value="empty">Choose Your Rocket</option>
+                    <option value={falconOne}>Falcon 1</option>
+                    <option value={falconNine}>Falcon 9</option>
+                    <option value={falconHeavy}>Falcon Heavy</option>
+                    <option value={starship}>Starship</option>
+                </select>
+            </div>
             <Results data={data} />
         </div>
     )

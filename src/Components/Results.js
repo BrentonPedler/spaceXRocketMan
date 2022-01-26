@@ -8,11 +8,11 @@ const Results = ({data}) => {
     
     
     return (
-        <div>
+        <div className="results">
             <h3>{name}</h3>
             <p>{description}</p>
         </div>
-        
+
     )
 }
 
