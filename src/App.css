@@ -86,6 +86,10 @@ label[for="rockets"] {
     font-size: 1.5rem;
 }
 
+option {
+    text-align: center;
+}
+
 .results {
     margin: 0 auto;
     padding: 25px 0px;
@@ -102,7 +106,17 @@ label[for="rockets"] {
 
 .results p {
     padding: 50px 50px;
-    border: 3px solid #F0A500;
+    /* border: 3px solid #F0A500; */
 }
 
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
 
